@@ -1,0 +1,69 @@
+Hi,
+
+If you are using Anaconda please install Scrapy Python on cmd
+
+' conda install -c conda-forge scrapy '
+
+
+
+Thanks Analytical Vidya for Scrapy blog post.
+We will try to explore Reddit, Techcrunch etc. as example
+
+
+In Reddit Blog post of GameofThrones we are interested in (well i am not a fan of GOT haha)
+
+Title of each post
+Number of votes it has
+Number of comments
+Time of post creation
+
+# See Basic Tutorial
+https://doc.scrapy.org/en/latest/intro/tutorial.html
+
+
+
+
+
+Lets Start with creating a Custom Scrapy project:
+Creating a scrapy project:
+
+
+
+# (Remember open cmd or terminal in the relevant folder)
+scrapy startproject redditPosts
+
+
+
+# For now, the two most important files are:
+
+### settings.py – This file contains the settings you set for your project, you’ll be dealing a lot with it.
+### spiders/ – This folder is where all your custom spiders will be stored. Every time you ask scrapy to run a spider, it will look for it in this folder.
+
+
+
+Creating a spider
+Let’s change directory into our first scraper and create a basic spider “redditbot” :
+
+scrapy genspider redditbot www.reddit.com/r/gameofthrones/
+
+
+This will create a new spider “redditbot.py” in your spiders/ folder.
+
+
+
+
+
+In shopClues
+we need
+The following information needs to be extracted from the page:
+
+Product Name
+Product price
+Product discount
+Product image
+
+from https://www.shopclues.com/mobiles-featured-store-4g-smartphone.html
+
+
+See for more: https://www.analyticsvidhya.com/blog/2017/07/web-scraping-in-python-using-scrapy/#comment-151301
+
