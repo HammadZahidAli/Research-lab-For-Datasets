@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Apr 02 19:35:42 PDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0162-895c-2bf6-00000dc12a68 
+on database directory /home/hammad/Toxicity/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@2d49b3b 
+Loaded from file:/home/hammad/spark-2.1.1-bin-hadoop2.7/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11
+user.dir=/home/hammad/Toxicity
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-21-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
